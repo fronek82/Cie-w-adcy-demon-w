@@ -1,0 +1,147 @@
+{
+  "id": "demonlord",
+  "title": "Shadow of the Demon Lord",
+  "description": "The Shadow of the Demonlord system for FoundryVTT",
+  "version": "2.2.3",
+  "author": "Xacus, ClipplerBlood, PatrickPorto",
+  "authors": [
+    {
+      "name": "Xacus"
+    },
+    {
+      "name": "ClipplerBlood"
+    },
+    {
+      "name": "PatrickPorto"
+    }
+  ],
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10
+  },
+  "creators": "Xacus",
+  "localization": "PatrickPorto, Markus Raab, Damaskian, EDgarra, aeciobf, ParvusDomus, Cugi, zeteticl",
+  "esmodules": ["module/demonlord.js"],
+  "styles": ["styles/demonlord.css", "module/bundle.css"],
+  "scripts": [],
+  "packs": [
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "system": "demonlord",
+      "path": "packs/weapons.db",
+      "type": "Item"
+    },
+    {
+      "name": "armor",
+      "label": "Armor",
+      "system": "demonlord",
+      "path": "packs/armor.db",
+      "type": "Item"
+    },
+    {
+      "name": "ammunition",
+      "label": "Ammunition",
+      "system": "demonlord",
+      "path": "packs/ammunition.db",
+      "type": "Item"
+    },
+    {
+      "name": "weapons creature",
+      "label": "Weapons Creature",
+      "system": "demonlord",
+      "path": "packs/weapons-creatures.db",
+      "type": "Item"
+    },
+    {
+      "name": "languages",
+      "label": "Languages",
+      "system": "demonlord",
+      "path": "packs/languages.db",
+      "type": "Item"
+    },
+    {
+      "name": "demonlord macros gm",
+      "label": "Demonlord Macros - GM",
+      "system": "demonlord",
+      "path": "packs/demonlord-macros-gm.db",
+      "type": "Macro"
+    },
+    {
+      "name": "demonlord macros player",
+      "label": "Demonlord Macros - Player",
+      "system": "demonlord",
+      "path": "packs/demonlord-macros-player.db",
+      "type": "Macro"
+    },
+    {
+      "name": "sotdl system guide",
+      "label": "SotDL System Guide",
+      "system": "demonlord",
+      "path": "packs/sotdl-system-guide.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "sotdl roll tabels",
+      "label": "Demonlord - Roll Tables",
+      "system": "demonlord",
+      "path": "packs/roll-tables.db",
+      "type": "RollTable"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Portuguese (Brazilian)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italian",
+      "path": "lang/it.json"
+    },
+    {
+      "lang": "zh-tw",
+      "name": "Taiwanese Chinese",
+      "path": "lang/zh-tw.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "yd",
+  "primaryTokenAttribute": "characteristics.health",
+  "secondaryTokenAttribute": null,
+  "socket": true,
+  "url": "https://github.com/Xacus/demonlord",
+  "manifest": "https://github.com/Xacus/demonlord/releases/latest/download/system.json",
+  "download": "https://github.com/Xacus/demonlord/releases/download/2.2.3/system.zip",
+  "bugs": "https://github.com/Xacus/demonlord/issues",
+  "readme": "https://github.com/Xacus/demonlord/blob/master/README.md",
+  "changelog": "https://github.com/Xacus/demonlord/blob/master/CHANGELOG.md",
+  "allowBugReporter": true,
+  "license": "LICENSE.txt"
+}
